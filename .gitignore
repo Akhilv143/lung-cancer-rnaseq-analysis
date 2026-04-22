@@ -1,0 +1,11 @@
+# Ignore heavy R data objects
+*.rds
+*.RData
+*.Rhistory
+
+# Ignore uncompressed high-res TIFF images to save space
+*.tiff
+
+# Ignore any massive raw count matrices over 100MB (just in case)
+# You can comment these out if you want to push the CSV/TSVs under 100MB
+# count_matrix&metadata/*.tsv
